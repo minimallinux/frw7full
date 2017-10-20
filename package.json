@@ -1,0 +1,54 @@
+{
+  "name": "fw7full",
+  "version": "1.0.0",
+  "description": "Mobile App Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minimallinux/frw7full.git"
+  },
+  "keywords": [
+    "mobile",
+    "framework",
+    "ios7",
+    "ios8",
+    "iphone",
+    "ipad",
+    "android"
+  ],
+  "author": "P A McGowan",
+  "license": "ISC",
+  "homepage": "https://github.com/minimallinux/frw7full#readme",
+  "bugs": {
+    "url": "https://github.com/minimallinux/frw7full/issues"
+  },
+  
+    "devDependencies": {
+    "cross-env": "^5.0.5",
+    "diff": "^3.3.1",
+    "eslint": "^4.7.1",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-clean-css": "^3.9.0",
+    "browser-sync": "2.18.13",
+    "gulp-header": "^1.8.9",
+    "gulp-if": "^2.0.2",
+    "gulp-less": "^3.3.2",
+    "gulp-modify-file": "^0.1.0",
+    "gulp-open": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglify": "^2.1.2",
+    "rollup-plugin-buble": "^0.15.0",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-replace": "^1.2.1",
+    "rollup-stream": "^1.24.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
