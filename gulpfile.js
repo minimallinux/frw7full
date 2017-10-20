@@ -55,7 +55,7 @@ gulp.task('image',function(){
 });
 gulp.task('default',function(){
     browserSync.init({
-        proxy: "./fw7full"
+        proxy: "localhost/fw7full"
     });
     gulp.watch('js/**/*.js',['js']);
     gulp.watch('css/**/*.css',['css']);
